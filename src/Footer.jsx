@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./logo.png";
+import goodGovernance from "./goodGovernance.docx";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -55,6 +56,21 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="pt-4 md:flex md:items-center md:justify-center ">
+        <ul className="">
+          <li
+            className="md:mx-2 md:inline leading-7 text-sm"
+            id="footer-navi-2"
+          >
+            <a
+              className="text-gray-800 underline text-small"
+              href={goodGovernance}
+            >
+              Política de Práticas e Governança
+            </a>
+          </li>
+        </ul>
       </div>
     </nav>
   );
