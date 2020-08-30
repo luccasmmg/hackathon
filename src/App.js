@@ -8,6 +8,7 @@ import MainRequirement from "./MainRequirement.jsx";
 import MainInfographic from "./MainInfographic.jsx";
 import MainCompany from "./MainCompany.jsx";
 import About from "./About.jsx";
+import Politica from "./Politica.jsx";
 import Footer from "./Footer.jsx";
 import "./App.css";
 import "./tailwind.output.css";
@@ -26,6 +27,7 @@ function App() {
         <Route path="/infographic" exact component={MainInfographic} />
         <Route path="/company" exact component={MainCompany} />
         <Route path="/sobre" exact component={About} />
+        <Route path="/politica" exact component={Politica} />
         <Footer />
       </div>
     </Router>

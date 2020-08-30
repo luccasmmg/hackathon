@@ -33,25 +33,25 @@ const Footer = () => {
           </div>
 
           <div className="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2 lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-6">
-            <h4 className="text-gray-700">Paginas</h4>
+            {/* <h4 className="text-gray-700">Paginas</h4> */}
             <ul className="">
               <li id="navi-2" className="leading-7 text-sm">
-                <Link to="/">Principal</Link>
+                {/* <Link to="/">Principal</Link> */}
               </li>
-              <li className="text-sm">
-                <Link to="/infographic">Informações sobre a LGPD</Link>
-              </li>
+              <h4 className="text-sm"></h4>
+                <Link to="/infographic">Informações<br></br> sobre a LGPD</Link>
+      
             </ul>
           </div>
 
           <div className="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-1/2 md:my-px md:px-px md:w-1/2 lg:my-2 lg:px-2 lg:w-1/4 xl:my-2 xl:px-2 xl:w-1/4 pb-6">
-            <h4 className="text-gray-700">Paginas</h4>
+            <h4 className="text-gray-700">LGPD</h4>
             <ul className="">
               <li id="navi-2" className="leading-7 text-sm">
-                <Link to="/requirement">Requerimento da LGPD</Link>
+                <Link to="/requirement">Para o cidadão</Link>
               </li>
               <li className="text-sm">
-                <Link to="/company">Para Empresas</Link>
+                <Link to="/company">Para a Empresa</Link>
               </li>
             </ul>
           </div>

@@ -106,13 +106,13 @@ const PersonalForm = ({
           <InputNumber
             setField={setRg}
             field={rg}
-            placeholder={"3028102"}
+            placeholder={"0000000"}
             name={"RG"}
           />
           <InputText
             setField={setRgEmitter}
             field={rgEmitter}
-            placeholder={"ITEP-RN"}
+            placeholder={"SSP"}
             name={"Emissor do RG"}
           />
         </div>
@@ -168,9 +168,11 @@ const PersonalForm = ({
           <InputText
             setField={setResponse}
             field={response}
-            placeholder={"eletrônica"}
+            placeholder={"Eletrônica ou Fisica"}
             name={"Forma de resposta"}
           />
+          
+        
         </div>
       </form>
     </div>
