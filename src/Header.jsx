@@ -46,6 +46,9 @@ const Header = () => {
             <button className="block mt-4 px-3 py-2  rounded lg:inline-block lg:mt-0 text-white hover:text-blue-200 mr-4">
               <Link to="/sobre">SOBRE</Link>
             </button>
+            <button className="block mt-4 px-3 py-2  rounded lg:inline-block lg:mt-0 text-white hover:text-blue-200 mr-4">
+              <Link to="/politica">POLÍTICA DE PRIVACIDADE </Link>
+            </button>
           </div>
         </div>
       </nav>
