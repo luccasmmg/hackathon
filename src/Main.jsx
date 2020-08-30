@@ -3,13 +3,14 @@ import logo from "./logo.png";
 import iconCitizen from "./icons/iconCitizen.svg";
 import iconCompany from "./icons/iconCompany.svg";
 import iconInfographic from "./icons/iconInfographic.svg";
+import header from "./Headers/HeaderHome.png";
 import { Link } from "react-router-dom";
 
 const Main = () => (
   <main className={`App-main`}>
     <div className={`my-8 rounded bg-white p-3 border shadow-2xl`}>
       {" "}
-      <img src={logo} alt="Logo" />
+      <img src={header} alt="Header Home" />
       <br></br>
       <div className={`flex flex-wrap justify-center`}>
         <div

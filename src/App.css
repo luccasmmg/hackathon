@@ -25,6 +25,11 @@ header {
   color: white;
 }
 
+body {
+  font-family: 'Montserrat';
+  font-size: 22px;
+}
+
 main {
   min-height: 30vh;
   max-width: 790px;
