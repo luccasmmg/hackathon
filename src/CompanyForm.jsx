@@ -18,13 +18,13 @@ const CompanyForm = ({
             setField={setDataOfficer}
             field={dataOfficer}
             placeholder={""}
-            name={"Data Protection Officer da Empresa"}
+            name={"Nome da Empresa"}
           />
           <InputText
             setField={setTechnicalResponsible}
             field={technicalResponsible}
-            placeholder={""}
-            name={"Responsável Técnico da Empresa"}
+            placeholder={"Encarregado dos Dados"}
+            name={"Nome do Data Protection Officer da Empresa"}
           />
         </div>
       </form>
