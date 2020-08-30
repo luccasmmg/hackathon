@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.png";
 import iconCitizen from "./icons/iconCitizen.svg";
 import iconCompany from "./icons/iconCompany.svg";
 import iconInfographic from "./icons/iconInfographic.svg";
